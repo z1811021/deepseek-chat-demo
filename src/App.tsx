@@ -12,7 +12,8 @@ const client = new OpenAI({
   baseURL: "https://api.deepseek.com/v1",
   // 模型名称
 
-  apiKey: import.meta.env.VITE_DEEPSEEK_API_KEY,
+  // apiKey: import.meta.env.VITE_DEEPSEEK_API_KEY,
+  apiKey: "sk-71b286b74c4f4285863d4e9f2861e8cb",
   dangerouslyAllowBrowser: true,
 });
 const roles: GetProp<typeof Bubble.List, "roles"> = {
